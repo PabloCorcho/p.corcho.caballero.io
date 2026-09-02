@@ -36,6 +36,10 @@ Among the topics I find most fascinating, I enjoy studying **galaxy quenching** 
 
 > Understanding the **physics behind galaxy quenching** is essential for unraveling the story of **galaxy formation** across the history of the Universe.
 
+
+{% include figure.liquid loading="eager" path="assets/img/pablo_eas.jpg" class="img-fluid rounded z-depth-1" width="100%" max-width="600px" alt="EAS 2026 conference" %}
+
+
 To explore these questions, I use data from both **ground-based** and **space-based telescopes**, working across **multiple wavelength regimes** of the electromagnetic spectrum.
 
 
