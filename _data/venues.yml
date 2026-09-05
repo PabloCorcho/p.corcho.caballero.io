@@ -1,9 +1,5 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
-
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+# Add your real venue abbreviations here (matching the bibtex `journal` field) to
+# customize badge colors/links on the publications page. Format:
+# "A&A":
+#   url: https://www.aanda.org/
+#   color: "#00369f"

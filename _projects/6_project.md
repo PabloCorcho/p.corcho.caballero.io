@@ -1,80 +1,25 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: WEAVE
+description: Wide-field spectroscopic survey facility for the William Herschel Telescope
+img: assets/img/wht_kane600.png
+importance: 6
+category: surveys
+related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+{% include figure.liquid path="assets/img/wht_kane600.png" class="img-fluid rounded z-depth-1" width="100%" max-width="600px" alt="The William Herschel Telescope" caption="The William Herschel Telescope with the WEAVE top-end. Credit: Kane Sjoberg" %}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+[WEAVE](https://weave-project.atlassian.net/wiki/spaces/WEAVE/overview) is the new wide-field, massively multiplexed spectroscopic survey facility for the William Herschel Telescope, presented in {% cite 2024MNRAS.530.2688J %}. I am involved in this Integral Field Spectroscopy survey as part of my research into galaxy evolution.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## WEAVE-Apertif
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+[WEAVE-Apertif](https://astra.iac.es/project/weave-apertif/) combines Apertif's neutral-hydrogen (HI) detections of nearby galaxies with follow-up integral field spectroscopy from WEAVE's Large IFU on the William Herschel Telescope. The survey targets around 400 HI-detected galaxies at low redshift (z < 0.03), split roughly evenly between undisturbed systems and galaxies showing signs of interaction with their environment, to study:
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- **Galaxy bimodality**: how star formation is fuelled and quenched, shaping the distinct galaxy populations observed today.
+- **Dark matter in disks**: measuring dark matter distributions in 50-100 face-on galaxies using high-resolution spectroscopy.
+- **Secular evolution**: how galactic structures such as bars and spiral arms drive stellar dynamics and gas consumption in galaxy centers.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+By combining spatially resolved stellar, ionised-gas, and cold neutral-gas measurements for the largest such sample to date, WEAVE-Apertif is designed to disentangle the mechanisms that remove gas from galaxies and the timescales over which star formation shuts down across different group environments.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+I am a member of the WEAVE-Apertif Quality Assurance group (WAQA), contributing to quality control of the survey's data products.

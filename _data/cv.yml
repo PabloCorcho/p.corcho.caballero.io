@@ -15,7 +15,7 @@
       institution: Universidad Autónoma de Madrid, Madrid, Spain, and Macquarie University, Sydney, Australia
       year: 2020-2023
       description:
-        - Cum Lauden distinction
+        - Cum Laude distinction
 
     - title: Master of Science (MSc) in Theoretical Physics and Physics of the Cosmos
       year: 2018-2019
@@ -39,17 +39,17 @@
       institution: Australian Astronomical Optics, Macquarie University, Sydney, Australia
       year: Feb - Aug 2023
       description:
-        - Software develoment of ADARI - ESO instruments quality control report pipeline.
+        - Software development of ADARI - ESO instruments quality control report pipeline.
 
-- title: Galaxy surveys
+- title: Galaxy Surveys
   type: map
   contents:
     - name: <a href="https://www.esa.int/Science_Exploration/Space_Science/Euclid">Euclid</a>
-    - value: One of the flagship missions of the European Space Agency, aiming to survey about 14.000 square degrees of the sky in order to contraint the nature of dark energy.
+      value: One of the flagship missions of the European Space Agency, aiming to survey about 14,000 square degrees of the sky in order to constrain the nature of dark energy.
     - name: <a href="https://weave-project.atlassian.net/wiki/spaces/WEAVE/overview">WEAVE</a>
-    - value: The new wide-field, massively multiplexed spectroscopic survey facility for the William Herschel Telescope.
+      value: The new wide-field, massively multiplexed spectroscopic survey facility for the William Herschel Telescope.
     - name: <a href="https://hector.survey.org.au">Hector</a>
-    - value: The next major dark-time instrument for the AAT and is a multi integral-field-unit spectrograph aimed at obtaining a low-redshift galaxy survey of up to 15,000 galaxies,
+      value: The next major dark-time instrument for the AAT and is a multi integral-field-unit spectrograph aimed at obtaining a low-redshift galaxy survey of up to 15,000 galaxies.
 
 - title: Open Source Projects
   type: time_table
