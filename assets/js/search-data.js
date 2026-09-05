@@ -9,12 +9,26 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Software and surveys I work on.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "publications by categories in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
+          },
+        },{id: "nav-about-me",
+          title: "about me",
+          description: "A little about me",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about-me/";
           },
         },{id: "nav-repositories",
           title: "repositories",
@@ -30,42 +44,39 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+        },{id: "projects-pykoala",
+          title: 'PyKOALA',
+          description: "A python library for Integral Field Spectroscopy (IFS) data reduction",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-besta",
+          title: 'BESTA',
+          description: "Bayesian Estimator for Stellar Populations Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-pst",
+          title: 'PST',
+          description: "Population Synthesis Toolkit",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-equal",
+          title: 'EQUAL',
+          description: "Euclid data exploration and quality-control interface",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+            },},{id: "projects-euclid",
+          title: 'Euclid',
+          description: "ESA&#39;s dark-energy space telescope mission",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+            },},{id: "projects-weave",
+          title: 'WEAVE',
+          description: "Wide-field spectroscopic survey facility for the William Herschel Telescope",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-hector",
+          title: 'Hector',
+          description: "Multi-IFU galaxy survey for the Anglo-Australian Telescope",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "projects-project-8",
