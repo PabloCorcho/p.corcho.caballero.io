@@ -3,7 +3,8 @@ layout: page
 title: about me
 permalink: /about-me/
 description: A little about me
-nav: false
+nav: true
+nav_order: 3
 ---
 
 Although I was born in Madrid, I do not consider myself a city person. My family comes from Extremadura (western Spain), where I've spent many good times surrounded by sheep.
